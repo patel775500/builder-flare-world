@@ -35,4 +35,17 @@ const App = () => (
   </QueryClientProvider>
 );
 
-createRoot(document.getElementById("root")!).render(<App />);
+// HMR-safe mount: reuse the root if already created to avoid "createRoot called on container" warnings
+const __container = document.getElementById("root")!;
+
+declare global {
+  interface Window {
+    __app_root?: ReturnType<typeof createRoot>;
+  }
+}
+
+if (!window.__app_root) {
+  window.__app_root = createRoot(__container);
+}
+
+window.__app_root.render(<App />);

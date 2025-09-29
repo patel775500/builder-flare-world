@@ -4,6 +4,7 @@ import {
   Music3,
   Flower2,
   ExternalLink,
+  Gamepad2,
 } from "lucide-react";
 
 const HERO_IMG =
@@ -56,7 +57,7 @@ export default function Index() {
           an experience below.
         </p>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
           {/* Events */}
           <a
             href="https://zenith-space-charminar-events.netlify.app/"
@@ -111,13 +112,31 @@ export default function Index() {
             </span>
           </a>
 
-          {/* Fragrance - coming soon */}
-          <div className="relative overflow-hidden rounded-xl border bg-card p-6 shadow-sm opacity-80">
-            <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-foreground/5 blur-2xl" />
+          {/* Fragrance */}
+          <a
+            href="https://illustrious-chaja-9b9a8d.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-xl border bg-card p-6 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md"
+          >
+            <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-foreground/5 blur-2xl transition-opacity group-hover:opacity-70" />
             <Flower2 className="h-8 w-8 text-foreground/70" />
             <h3 className="mt-4 text-lg font-semibold">Charminar Fragrance</h3>
             <p className="mt-1 text-sm text-muted-foreground">
-              Link coming soon. Stay tuned.
+              Explore scents crafted by our team.
+            </p>
+            <span className="mt-4 inline-flex items-center gap-1 text-sm text-foreground/80 group-hover:underline">
+              Visit <ExternalLink className="h-4 w-4" />
+            </span>
+          </a>
+
+          {/* Arcade - coming soon */}
+          <div className="relative overflow-hidden rounded-xl border bg-card p-6 shadow-sm opacity-90">
+            <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-muted blur-2xl" />
+            <Gamepad2 className="h-8 w-8 text-foreground/80" />
+            <h3 className="mt-4 text-lg font-semibold">Charminar Arcade</h3>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Coming soon — mini games like Tic‑Tac‑Toe, Memory Flip, 2048, Snake, and Whack‑a‑Mole.
             </p>
             <span className="mt-4 inline-flex items-center rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground">
               Coming soon

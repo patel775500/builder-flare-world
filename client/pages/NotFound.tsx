@@ -15,7 +15,10 @@ const NotFound = () => {
     <div className="container py-24 text-center">
       <h1 className="text-5xl font-extrabold">404</h1>
       <p className="mt-2 text-muted-foreground">Page not found</p>
-      <a href="/" className="mt-6 inline-block text-primary underline underline-offset-4">
+      <a
+        href="/"
+        className="mt-6 inline-block text-primary underline underline-offset-4"
+      >
         Return to Home
       </a>
     </div>

@@ -1,4 +1,10 @@
-import { CalendarCheck, Brain, Music3, Flower2, ExternalLink } from "lucide-react";
+import {
+  CalendarCheck,
+  Brain,
+  Music3,
+  Flower2,
+  ExternalLink,
+} from "lucide-react";
 
 const HERO_IMG =
   "https://cdn.builder.io/api/v1/image/assets%2Ff028ffec3e4347b6ae251777e55a11c0%2F0f36f8a0f60b4025b15e479ababf7208?format=webp&width=1200";
@@ -42,9 +48,12 @@ export default function Index() {
 
       {/* Experiences */}
       <section id="experiences" className="container py-14 md:py-20">
-        <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Experiences</h2>
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
+          Experiences
+        </h2>
         <p className="mt-2 text-muted-foreground max-w-prose">
-          We don’t associate with the monument; it’s simply our team name. Pick an experience below.
+          We don’t associate with the monument; it’s simply our team name. Pick
+          an experience below.
         </p>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

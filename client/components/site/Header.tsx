@@ -17,7 +17,10 @@ export default function Header({ className }: { className?: string }) {
           </span>
         </Link>
         <nav className="flex items-center gap-6 text-sm">
-          <a href="#experiences" className="hover:text-primary transition-colors">
+          <a
+            href="#experiences"
+            className="hover:text-primary transition-colors"
+          >
             Experiences
           </a>
         </nav>

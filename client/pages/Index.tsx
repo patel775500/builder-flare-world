@@ -55,7 +55,7 @@ export default function Index() {
             rel="noopener noreferrer"
             className="group relative overflow-hidden rounded-xl border bg-card p-6 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md"
           >
-            <div className="absolute -right-10 -top-10 size-24 rounded-full bg-secondary/30 blur-2xl transition-opacity group-hover:opacity-70" />
+            <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-secondary/30 blur-2xl transition-opacity group-hover:opacity-70" />
             <CalendarCheck className="h-8 w-8 text-secondary" />
             <h3 className="mt-4 text-lg font-semibold">Charminar Events</h3>
             <p className="mt-1 text-sm text-muted-foreground">
@@ -73,7 +73,7 @@ export default function Index() {
             rel="noopener noreferrer"
             className="group relative overflow-hidden rounded-xl border bg-card p-6 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md"
           >
-            <div className="absolute -right-10 -top-10 size-24 rounded-full bg-accent/30 blur-2xl transition-opacity group-hover:opacity-70" />
+            <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-accent/30 blur-2xl transition-opacity group-hover:opacity-70" />
             <Brain className="h-8 w-8 text-accent" />
             <h3 className="mt-4 text-lg font-semibold">Charminar Predicts</h3>
             <p className="mt-1 text-sm text-muted-foreground">
@@ -91,7 +91,7 @@ export default function Index() {
             rel="noopener noreferrer"
             className="group relative overflow-hidden rounded-xl border bg-card p-6 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md"
           >
-            <div className="absolute -right-10 -top-10 size-24 rounded-full bg-primary/20 blur-2xl transition-opacity group-hover:opacity-70" />
+            <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-primary/20 blur-2xl transition-opacity group-hover:opacity-70" />
             <Music3 className="h-8 w-8 text-primary" />
             <h3 className="mt-4 text-lg font-semibold">Charminar Music</h3>
             <p className="mt-1 text-sm text-muted-foreground">
@@ -104,7 +104,7 @@ export default function Index() {
 
           {/* Fragrance - coming soon */}
           <div className="relative overflow-hidden rounded-xl border bg-card p-6 shadow-sm opacity-80">
-            <div className="absolute -right-10 -top-10 size-24 rounded-full bg-foreground/5 blur-2xl" />
+            <div className="absolute -right-10 -top-10 h-24 w-24 rounded-full bg-foreground/5 blur-2xl" />
             <Flower2 className="h-8 w-8 text-foreground/70" />
             <h3 className="mt-4 text-lg font-semibold">Charminar Fragrance</h3>
             <p className="mt-1 text-sm text-muted-foreground">

@@ -136,7 +136,8 @@ export default function Index() {
             <Gamepad2 className="h-8 w-8 text-foreground/80" />
             <h3 className="mt-4 text-lg font-semibold">Charminar Arcade</h3>
             <p className="mt-1 text-sm text-muted-foreground">
-              Coming soon — mini games like Tic‑Tac‑Toe, Memory Flip, 2048, Snake, and Whack‑a‑Mole.
+              Coming soon — mini games like Tic‑Tac‑Toe, Memory Flip, 2048,
+              Snake, and Whack‑a‑Mole.
             </p>
             <span className="mt-4 inline-flex items-center rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground">
               Coming soon
